@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('./assets/fonts/suisse-intl-regular.ttf') format('truetype');
+  font-style: normal;
+  
+}
