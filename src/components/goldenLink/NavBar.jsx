@@ -9,7 +9,7 @@ const NavBar = () => {
             data-name="Logo RZ"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 198.43 29.76"
-            className="nav-bar__logo--ext w-[15%]"
+            className="nav-bar__logo--ext w-[15%] xsm:w-[30%]"
             data-v-5e0881ab=""
           >
             <g id="AH_Logo_white" data-v-5e0881ab="">
@@ -136,7 +136,7 @@ const NavBar = () => {
             </g>
           </svg>
          
-        <div className="flex text-[#dccdb4] text-sm items-center justify-center gap-10">
+        <div className="flex xsm:hidden text-[#dccdb4] text-sm items-center justify-center gap-10">
           <p><h1 className="text-xs">01</h1> <h1 className="text-sm">Home</h1></p>
           <p><h1 className="text-xs">02</h1> <h1 className="text-sm">About</h1></p>
           <p><h1 className="text-xs">03</h1> <h1 className="text-sm">Contact Us</h1></p>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -31,7 +30,7 @@ const Cards = () => {
   return (
     <div
       ref={ref}
-      className=" flex justify-center gap-4"
+      className=" grid grid-cols-3 sm:grid-cols-2 xsm:grid-cols-2 justify-center gap-4"
     >
       {cardData.map((card, i) => {
         // Convert tailwind rotation classes to degrees
