@@ -1,21 +1,24 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import imag1 from '../../src/assets/switzerland.jpg';
+import imag2 from '../../src/assets/italy.jpg';
+import imag3 from '../../src/assets/dusctland.jpg';
 
 const cardData = [
   {
     country: 'Switzerland',
-    image: '../../src/assets/switzerland.jpg',
+    image: imag1,
     year: '1905',
   },
   {
     country: 'Italy',
-    image: '../../src/assets/italy.jpg',
+    image: imag2,
     year: '2006',
     rotate: 'rotate-6',
   },
   {
     country: 'Deutschland',
-    image: '../../src/assets/dusctland.jpg',
+    image: imag3,
     year: '2004',
     rotate: '-rotate-6',
   }
